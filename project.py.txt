@@ -1,0 +1,15 @@
+#for date.csv
+date = pd.read_csv(r"C:\Users\User\OneDrive\Documents\DA_prep\Python\p1\dim_date.csv")
+
+#for hotel.csv
+hotel = pd.read_csv(r"C:\Users\User\OneDrive\Documents\DA_prep\Python\p1\dim_hotel.csv")
+
+#for rooms.csv
+room = pd.read_csv(r"C:\Users\User\OneDrive\Documents\DA_prep\Python\p1\dim_rooms.csv")
+
+#for fact_aggregate_bookings.csv
+agg_bookings = pd.read_csv(r"C:\Users\User\OneDrive\Documents\DA_prep\Python\p1\fact_aggregated_bookings.csv")
+
+#for fact_bookings.csv
+bookings = pd.read_csv(r"C:\Users\User\OneDrive\Documents\DA_prep\Python\p1\fact_bookings.csv")
+
